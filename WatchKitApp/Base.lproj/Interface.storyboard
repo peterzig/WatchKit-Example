@@ -15,12 +15,28 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitApp" customModuleProvider="target">
                     <items>
                         <label alignment="left" text="Hello Watch!" id="cba-CF-koG"/>
-                        <button width="1" alignment="left" title="Click me!" id="yHj-eQ-0vJ"/>
+                        <button width="1" alignment="left" title="Click me!" id="yHj-eQ-0vJ">
+                            <connections>
+                                <segue destination="DYL-ZT-1eF" kind="push" id="XtU-0m-OK6"/>
+                            </connections>
+                        </button>
                         <imageView height="84" alignment="left" image="watch-icon" contentMode="scaleAspectFill" id="L4E-gS-uS3"/>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="116" y="337"/>
+            <point key="canvasLocation" x="-336" y="-1"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="IOu-Z1-T5s">
+            <objects>
+                <controller id="DYL-ZT-1eF">
+                    <items>
+                        <label alignment="left" text="Made by Peterzig" id="mEr-oZ-xnQ"/>
+                        <dateLabel alignment="left" format="dd.mm.yyyy, hh:mm" id="fDd-Yn-rBH"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-59" y="-1"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
